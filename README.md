@@ -7,4 +7,4 @@
 <h2 id="linked-list">Linked List</h2>
 <h3>Singly Linked List</h3>
 
-- <a href="./LinkedList/Singly/QuickSort">Quick Sort</a>
+- <a href="./LinkedList/Singly/QuickSort.cpp">Quick Sort</a>
