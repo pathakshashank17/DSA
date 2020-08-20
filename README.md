@@ -14,3 +14,4 @@
 <h3>Singly Linked List</h3>
 
 - <a href="./LinkedList/Singly/QuickSort.cpp">Quick Sort</a>
+- <a href="./LinkedList/Singly/MergeSort.cpp">Quick Sort</a>
