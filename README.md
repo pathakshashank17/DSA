@@ -22,5 +22,4 @@
 
 <h4>Doubly Linked List</h4>
 
-
 - <a href="./LinkedList/Doubly/Reverse.cpp">Reverse</a>
