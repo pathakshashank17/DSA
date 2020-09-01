@@ -6,6 +6,10 @@
 - <a href="#array">Array</a>
 - <a href="#linked-list">Linked List</a>
 
+<h1>Algorithms</h1>
+
+- <a href="#finding-smallest-and-second-smallest-in-all-subarrays">Finding smallest & second smallest in all subarrays</a>
+
 <h2 id="array">Array</h2>
 
 - <a href="./Array/QuickSort.cpp">Quick Sort</a>
@@ -23,3 +27,7 @@
 <h4>Doubly Linked List</h4>
 
 - <a href="./LinkedList/Doubly/Reverse.cpp">Reverse</a>
+
+<h4>Algorithms</h4>
+
+- <a href="./Algos/SmallestSecond-SmallestInSubarrays">Finding smallest & second smallest in all subarrays</a>
