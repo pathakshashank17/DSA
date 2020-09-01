@@ -30,4 +30,4 @@
 
 <h4>Algorithms</h4>
 
-- <a href="./Algos/SmallestSecond-SmallestInSubarrays">Finding smallest & second smallest in all subarrays</a>
+- <a href="./Algos/SmallestSecond-SmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
