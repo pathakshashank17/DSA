@@ -9,6 +9,7 @@
 <h1>Algorithms</h1>
 
 - <a href="./Algos/SmallestSecond-SmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
+- <a href="./Algos/Modular-Exponentiation.cpp">Modular Exponentiation</a>
 
 <h2 id="array">Array</h2>
 
