@@ -10,6 +10,7 @@
 
 - <a href="./Algos/SmallestSecond-SmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
 - <a href="./Algos/Modular-Exponentiation.cpp">Modular Exponentiation</a>
+- <a href="./Algos/Eucledian-GCD.cpp">Eucledian GCD</a>
 
 <h2 id="array">Array</h2>
 
