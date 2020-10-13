@@ -1,6 +1,8 @@
 <h1 align="center">DSA</h1>
 <p align="center">This repo hosts some code for DSA</p>
  
+<h1 align="center">Contents</h1>
+
 <h1>Data Structures</h1>
 
 - <a href="#array">Array</a>
@@ -13,6 +15,8 @@
 - <a href="./Algos/Eucledian-GCD.cpp">Eucledian GCD</a>
 - <a href="./Algos/Sieve-Of-Eratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
+
+<h1 align="center">Data Structures</h1>
 
 <h2 id="array">Array</h2>
 
