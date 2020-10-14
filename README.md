@@ -10,10 +10,10 @@
 
 <h1>Algorithms</h1>
 
-- <a href="./Algos/SmallestSecond-SmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
-- <a href="./Algos/Modular-Exponentiation.cpp">Modular Exponentiation</a>
-- <a href="./Algos/Eucledian-GCD.cpp">Eucledian GCD</a>
-- <a href="./Algos/Sieve-Of-Eratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
+- <a href="./Algos/SmallestSecondSmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
+- <a href="./Algos/BinaryExponentiation.cpp">Binary Exponentiation</a>
+- <a href="./Algos/EucledianGCD.cpp">Eucledian GCD</a>
+- <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
 - <a href="./Algos/TernarySearch.cpp">Ternary Search `O(log_3(N))`</a>
 
