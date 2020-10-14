@@ -15,6 +15,7 @@
 - <a href="./Algos/Eucledian-GCD.cpp">Eucledian GCD</a>
 - <a href="./Algos/Sieve-Of-Eratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
+- <a href="./Algos/TernarySearch.cpp">Ternary Search `O(log_3(N))`</a>
 
 <h1 align="center">Data Structures</h1>
 
