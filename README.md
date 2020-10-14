@@ -13,6 +13,7 @@
 - <a href="./Algos/SmallestSecondSmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
 - <a href="./Algos/BinaryExponentiation.cpp">Binary Exponentiation</a>
 - <a href="./Algos/EucledianGCD.cpp">Eucledian GCD</a>
+- <a href="./Algos/ExtendedEucledianAlgorithm.cpp">Extended Eucledian Algorithm</a>
 - <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
 - <a href="./Algos/TernarySearch.cpp">Ternary Search `O(log_3(N))`</a>
