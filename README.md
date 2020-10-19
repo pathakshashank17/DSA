@@ -17,6 +17,7 @@
 - <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
 - <a href="./Algos/TernarySearch.cpp">Ternary Search `O(log_3(N))`</a>
+- <a href="./Algos/EulersTotientFunction.cpp">Euler's Totient Function</a>
 
 <h1 align="center">Data Structures</h1>
 
