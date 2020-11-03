@@ -18,6 +18,8 @@
 - <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
 - <a href="./Algos/TernarySearch.cpp">Ternary Search `O(log_3(N))`</a>
 - <a href="./Algos/EulersTotientFunction.cpp">Euler's Totient Function</a>
+- Dynamic Programming  
+  - <a href="./Algos/LongestCommonSubsequence.cpp">Longest Common Subsequence</a>
 
 <h1 align="center">Data Structures</h1>
 
