@@ -14,12 +14,13 @@
 - <a href="./Algos/BinaryExponentiation.cpp">Binary Exponentiation</a>
 - <a href="./Algos/EucledianGCD.cpp">Eucledian GCD</a>
 - <a href="./Algos/ExtendedEucledianAlgorithm.cpp">Extended Eucledian Algorithm</a>
-- <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes `O(Nlog(log(N)))`</a>
-- <a href="./Algos/BinarySearch.cpp">Binary Search `O(log(N))`</a>
-- <a href="./Algos/TernarySearch.cpp">Ternary Search `O(log_3(N))`</a>
+- <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes</a>
+- <a href="./Algos/BinarySearch.cpp">Binary Search</a>
+- <a href="./Algos/TernarySearch.cpp">Ternary Search</a>
 - <a href="./Algos/EulersTotientFunction.cpp">Euler's Totient Function</a>
 - Dynamic Programming  
   - <a href="./Algos/LongestCommonSubsequence.cpp">Longest Common Subsequence</a>
+  - <a href="./Algos/Kadane.cpp">Kadane's Algorithm (Largest Sum Contiguous Subarray)</a>
 
 <h1 align="center">Data Structures</h1>
 
