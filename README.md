@@ -21,6 +21,7 @@
 - Dynamic Programming  
   - <a href="./Algos/LongestCommonSubsequence.cpp">Longest Common Subsequence</a>
   - <a href="./Algos/Kadane.cpp">Kadane's Algorithm (Largest Sum Contiguous Subarray)</a>
+  - <a href="./Algos/LongestIncreasingSubsequence.cpp">Longest Increasing Subsequence</a>
 
 <h1 align="center">Data Structures</h1>
 
