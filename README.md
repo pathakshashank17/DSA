@@ -47,3 +47,4 @@
 <h2 id="graph">Graph</h2>
 
 - <a href="./Graph/AdjanceyMatrix.cpp">Adjancey Matrix</a>
+- <a href="./Graph/AdjanceyList.cpp">Adjancey List</a>

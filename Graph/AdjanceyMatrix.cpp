@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
     int n;  // Number of Nodes
-    int k;  // Number of edges
+    int k;  // Number of Edges
     cin >> n >> k;
-    vector<vector<bool>> adj(n, vector<bool>(n, 0));  // Ajdancey Matrix
+    vector<vector<bool>> adj(n, vector<bool>(n, 0));  // Adjancey Matrix
     while (k--) {
         int a, b;
         cin >> a >> b;
