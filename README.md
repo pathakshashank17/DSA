@@ -7,6 +7,7 @@
 
 - <a href="#array">Array</a>
 - <a href="#linked-list">Linked List</a>
+- <a href="#graph">Graph</a>
 
 <h1>Algorithms</h1>
 
@@ -42,3 +43,7 @@
 <h4>Doubly Linked List</h4>
 
 - <a href="./LinkedList/Doubly/Reverse.cpp">Reverse</a>
+
+<h2 id="graph">Graph</h2>
+
+- <a href="./Graph/AdjanceyMatrix.cpp">Adjancey Matrix</a>
