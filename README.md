@@ -19,7 +19,7 @@
 - <a href="./Algos/BinarySearch.cpp">Binary Search</a>
 - <a href="./Algos/TernarySearch.cpp">Ternary Search</a>
 - <a href="./Algos/EulersTotientFunction.cpp">Euler's Totient Function</a>
-- Dynamic Programming  
+- Dynamic Programming
   - <a href="./Algos/LongestCommonSubsequence.cpp">Longest Common Subsequence</a>
   - <a href="./Algos/Kadane.cpp">Kadane's Algorithm (Largest Sum Contiguous Subarray)</a>
   - <a href="./Algos/LongestIncreasingSubsequence.cpp">Longest Increasing Subsequence</a>
@@ -29,7 +29,7 @@
 <h2 id="array">Array</h2>
 
 - <a href="./Array/QuickSort.cpp">Quick Sort</a>
-- <a href="./Array/MergeSort.cpp">Merge Sort</a> 
+- <a href="./Array/MergeSort.cpp">Merge Sort</a>
 
 <h2 id="linked-list">Linked List</h2>
 
@@ -48,3 +48,5 @@
 
 - <a href="./Graph/AdjanceyMatrix.cpp">Adjancey Matrix</a>
 - <a href="./Graph/AdjanceyList.cpp">Adjancey List</a>
+- <a href="./Graph/DFS.cpp">Depth First Search</a>
+- <a href="./Graph/BFS.cpp">Breadth First Search</a>
