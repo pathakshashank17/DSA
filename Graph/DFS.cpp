@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Propery assign adj & visited
+// Properly assign adj & visited
 vector<vector<int>> adj;  // Adjancey List
 vector<bool> visited;     // Visited matrix
 
