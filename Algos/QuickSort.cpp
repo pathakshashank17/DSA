@@ -5,14 +5,14 @@
 using namespace std;
 
 int part(vector<int> &a, int start, int end) {
-    int pi = end;
-    int index = start;
+    // Assume pivot is a[end]
+    int pi = start;
     for (int i = start; i < end; i++) {
-        if (a[i] < a[pi])
-            swap(a[i], a[index++]);
+        if (a[i] < a[end])
+            swap(a[i], a[pi++]);
     }
-    swap(a[pi], a[index]);
-    return index;
+    swap(a[end], a[pi]);
+    return pi;
 }
 
 void quickSort(vector<int> &a, int start, int end) {
