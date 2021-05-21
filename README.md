@@ -11,25 +11,28 @@
 
 <h1>Algorithms</h1>
 
-- <a href="./Algos/SmallestSecondSmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
 - <a href="./Algos/BinaryExponentiation.cpp">Binary Exponentiation</a>
-- <a href="./Algos/EucledianGCD.cpp">Eucledian GCD</a>
-- <a href="./Algos/ExtendedEucledianAlgorithm.cpp">Extended Eucledian Algorithm</a>
-- <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search</a>
-- <a href="./Algos/TernarySearch.cpp">Ternary Search</a>
+- <a href="./Algos/EucledianGCD.cpp">Eucledian GCD</a>
 - <a href="./Algos/EulersTotientFunction.cpp">Euler's Totient Function</a>
+- <a href="./Algos/ExtendedEucledianAlgorithm.cpp">Extended Eucledian Algorithm</a>
+- <a href="./Algos/InsertionSort.cpp">Insertion Sort</a>
+- <a href="./Algos/KMP.cpp">KMP for pattern matching</a>
+- <a href="./Algos/MergeSort.cpp">Merge Sort</a>
+- <a href="./Algos/QuickSort.cpp">Quick Sort</a>
+- <a href="./Algos/SelectionSort.cpp">Selection Sort</a>
+- <a href="./Algos/SieveOfEratosthenes.cpp">Sieve Of Eratosthenes</a>
+- <a href="./Algos/SmallestSecondSmallestInSubarrays.cpp">Finding smallest & second smallest in all subarrays</a>
+- <a href="./Algos/TernarySearch.cpp">Ternary Search</a>
 - Dynamic Programming
-  - <a href="./Algos/LongestCommonSubsequence.cpp">Longest Common Subsequence</a>
   - <a href="./Algos/Kadane.cpp">Kadane's Algorithm (Largest Sum Contiguous Subarray)</a>
+  - <a href="./Algos/LongestCommonSubsequence.cpp">Longest Common Subsequence</a>
   - <a href="./Algos/LongestIncreasingSubsequence.cpp">Longest Increasing Subsequence</a>
 
 <h1 align="center">Data Structures</h1>
 
 <h2 id="array">Array</h2>
-
-- <a href="./Array/QuickSort.cpp">Quick Sort</a>
-- <a href="./Array/MergeSort.cpp">Merge Sort</a>
+- Empty
 
 <h2 id="linked-list">Linked List</h2>
 
