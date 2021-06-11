@@ -13,6 +13,24 @@ struct Node {
     }
 };
 
+struct Tree {
+    Node* root;
+    Tree() {
+        root = nullptr;
+    }
+    void insert(int val);
+    Node* del(Node* root, int val);
+    void inOrderTraversal();
+    void preOrderTraversal();
+    void postOrderTraversal();
+};
+
+Node* minNode(Node* root) {
+    while (root && root->left)
+        root = root->left;
+    return root;
+}
+
 void inOrder(Node* root) {
     if (!root)
         return;
@@ -37,18 +55,6 @@ void postOrder(Node* root) {
     cout << root->val << ' ';
 }
 
-struct Tree {
-    Node* root;
-    Tree() {
-        root = nullptr;
-    }
-    void insert(int val);
-    void del(int val);
-    void inOrderTraversal();
-    void preOrderTraversal();
-    void postOrderTraversal();
-};
-
 void Tree::insert(int val) {
     if (!root) {
         root = new Node(val);
@@ -72,6 +78,35 @@ void Tree::insert(int val) {
     }
 }
 
+Node* Tree::del(Node* root, int val) {
+    if (!root)
+        return nullptr;
+    if (val < root->val)
+        root->left = del(root->left, val);
+    else if (val > root->val)
+        root->right = del(root->right, val);
+    else {
+        // Leaf Node
+        if (!root->left && !root->right)
+            return nullptr;
+        // One child
+        if (!root->right) {
+            Node* leftNode = root->left;
+            free(root);
+            return leftNode;
+        } else {
+            Node* rightNode = root->right;
+            free(root);
+            return rightNode;
+        }
+        // Two child
+        Node* minn = minNode(root->right);
+        root->val = minn->val;
+        root->right = del(root->right, minn->val);
+    }
+    return root;
+}
+
 void Tree::inOrderTraversal() {
     inOrder(root);
 }
@@ -82,9 +117,6 @@ void Tree::preOrderTraversal() {
 
 void Tree::postOrderTraversal() {
     postOrder(root);
-}
-
-void Tree::del(int val) {
 }
 
 int main() {
@@ -102,5 +134,9 @@ int main() {
     tree.preOrderTraversal();
     cout << "\nPostorder traversal\n";
     tree.postOrderTraversal();
+    int valToDelete;
+    cin >> valToDelete;
+    tree.root = tree.del(tree.root, valToDelete);
+    tree.inOrderTraversal();
     return 0;
 }
