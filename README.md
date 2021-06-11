@@ -31,9 +31,6 @@
 
 <h1 align="center">Data Structures</h1>
 
-<h2 id="array">Array</h2>
-- Empty
-
 <h2 id="linked-list">Linked List</h2>
 
 <h4>Singly Linked List</h4>
