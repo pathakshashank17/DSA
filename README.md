@@ -8,6 +8,7 @@
 - <a href="#array">Array</a>
 - <a href="#linked-list">Linked List</a>
 - <a href="#graph">Graph</a>
+- <a href="#tree">Tree</a>
 
 <h1>Algorithms</h1>
 
