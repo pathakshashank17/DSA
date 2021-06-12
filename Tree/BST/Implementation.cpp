@@ -20,9 +20,11 @@ struct Tree {
     }
     void insert(int val);
     Node* del(Node* root, int val);
+    Node* find(int val);
     void inOrderTraversal();
     void preOrderTraversal();
     void postOrderTraversal();
+    Node* inorderSuccessor(Node* node);
 };
 
 Node* minNode(Node* root) {
@@ -107,6 +109,35 @@ Node* Tree::del(Node* root, int val) {
     return root;
 }
 
+Node* Tree::find(int val) {
+    Node* r = root;
+    while (r && r->val != val) {
+        if (val <= r->val)
+            r = r->left;
+        else
+            r = r->right;
+    }
+    return r;
+}
+
+Node* Tree::inorderSuccessor(Node* node) {
+    // If has no right child
+    if (!node->right) {
+        Node *ancestor = root, *successor = nullptr;
+        while (ancestor != node) {
+            if (node->val < ancestor->val) {
+                successor = ancestor;
+                ancestor = ancestor->left;
+            } else
+                ancestor = ancestor->right;
+        }
+        return successor;
+    }
+    // If has a right child
+    else
+        return minNode(node->right);
+}
+
 void Tree::inOrderTraversal() {
     inOrder(root);
 }
@@ -128,7 +159,7 @@ int main() {
         cin >> val;
         tree.insert(val);
     }
-    cout << "\nInorder traversal\n";
+    cout << "Inorder traversal\n";
     tree.inOrderTraversal();
     cout << "\nPreorder traversal\n";
     tree.preOrderTraversal();
@@ -138,5 +169,9 @@ int main() {
     cin >> valToDelete;
     tree.root = tree.del(tree.root, valToDelete);
     tree.inOrderTraversal();
+    cout << endl;
+    int val;
+    cin >> val;
+    cout << tree.inorderSuccessor(tree.find(val))->val;
     return 0;
 }
