@@ -57,3 +57,7 @@
 <h4>BST</h4>
 
 - <a href="./Tree/BST/Implementation.cpp">Implementation</a>
+
+<h4>AVL</h4>
+
+- <a href="./Tree/AVL/Implementation.cpp">Implementation</a>
