@@ -61,3 +61,7 @@
 <h4>AVL</h4>
 
 - <a href="./Tree/AVL/Implementation.cpp">Implementation</a>
+
+<h4>Fenwick / BIT</h4>
+
+- <a href="./Tree/Fenwick/PrefixSum.cpp">Prefix Sum</a>
