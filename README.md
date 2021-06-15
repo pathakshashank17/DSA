@@ -68,4 +68,4 @@
 
 <h4>Trie</h4>
 
-- <a href="./Tree/Trie/PrefixSum.cpp">Trie</a>
+- <a href="./Tree/Trie/Implementation.cpp">Trie</a>
