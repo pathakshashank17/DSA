@@ -65,3 +65,7 @@
 <h4>Fenwick / BIT</h4>
 
 - <a href="./Tree/Fenwick/PrefixSum.cpp">Prefix Sum</a>
+
+<h4>Trie</h4>
+
+- <a href="./Tree/Trie/PrefixSum.cpp">Trie</a>
