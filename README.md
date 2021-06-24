@@ -51,6 +51,7 @@
 - <a href="./Graph/AdjanceyList.cpp">Adjancey List</a>
 - <a href="./Graph/DFS.cpp">Depth First Search</a>
 - <a href="./Graph/BFS.cpp">Breadth First Search</a>
+- <a href="./Graph/Dijsktra.cpp">Dijsktra</a>
 
 <h2 id="tree">Tree</h2>
 
