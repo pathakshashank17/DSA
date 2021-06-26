@@ -51,7 +51,7 @@
 - <a href="./Graph/AdjanceyList.cpp">Adjancey List</a>
 - <a href="./Graph/DFS.cpp">Depth First Search</a>
 - <a href="./Graph/BFS.cpp">Breadth First Search</a>
-- <a href="./Graph/Dijsktra.cpp">Dijsktra's Algorithm</a>
+- <a href="./Graph/Dijsktra.cpp">Dijsktra</a>
 - <a href="./Graph/KruskalMethodOptimized.cpp">MST using Kruskal's method using DSU + Path compression + Rank union</a>
 
 <h2 id="tree">Tree</h2>
