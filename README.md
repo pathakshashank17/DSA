@@ -49,11 +49,12 @@
 
 - <a href="./Graph/AdjanceyMatrix.cpp">Adjancey Matrix</a>
 - <a href="./Graph/AdjanceyList.cpp">Adjancey List</a>
-- <a href="./Graph/DFS.cpp">Depth First Search</a>
 - <a href="./Graph/BFS.cpp">Breadth First Search</a>
+- <a href="./Graph/DFS.cpp">Depth First Search</a>
 - <a href="./Graph/Dijsktra1.cpp">Dijsktra (basic)</a>
 - <a href="./Graph/Dijsktra2.cpp">Dijsktra (More generalized & using priority queue)</a>
-- <a href="./Graph/KruskalMethodOptimized.cpp">MST using Kruskal's method using DSU + Path compression + Rank union</a>
+- <a href="./Graph/KruskalMSTOptimized.cpp">MST using Kruskal's method using DSU + Path compression + Rank union</a>
+- <a href="./Graph/Toposort.cpp">Topological sort</a>
 
 <h2 id="tree">Tree</h2>
 
