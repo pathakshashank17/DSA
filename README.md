@@ -58,17 +58,21 @@
 
 <h2 id="tree">Tree</h2>
 
-<h4>BST</h4>
-
-- <a href="./Tree/BST/Implementation.cpp">Implementation</a>
-
 <h4>AVL</h4>
 
 - <a href="./Tree/AVL/Implementation.cpp">Implementation</a>
 
+<h4>BST</h4>
+
+- <a href="./Tree/BST/Implementation.cpp">Implementation</a>
+
 <h4>Fenwick / BIT</h4>
 
 - <a href="./Tree/Fenwick/Implementation.cpp">Implementation</a>
+
+<h4>Heap</h4>
+
+- <a href="./Tree/Heap/Heapify.cpp">Heapify</a>
 
 <h4>Trie</h4>
 
