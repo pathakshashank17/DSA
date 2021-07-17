@@ -73,6 +73,7 @@
 <h4>Heap</h4>
 
 - <a href="./Tree/Heap/Heapify.cpp">Heapify</a>
+- <a href="./Tree/Heap/MaxPriorityQueue.cpp">Max Priority Queue</a>
 
 <h4>Trie</h4>
 
