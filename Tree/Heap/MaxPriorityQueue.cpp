@@ -31,6 +31,7 @@ struct MaxPriorityQueue {
             return -1;
         int res = arr[1];
         swap(arr[1], arr[len--]);
+        arr.pop_back();
         maxHeapify(1);
         return res;
     }
@@ -46,7 +47,10 @@ struct MaxPriorityQueue {
     }
     void push(int val) {
         len++;
-        arr[len] = INT_MIN;
+        if (len >= arr.size())
+            arr.push_back(INT_MIN);
+        else
+            arr[len] = INT_MIN;
         upd(len, val);
     }
 };
@@ -58,20 +62,14 @@ int main() {
         cin >> task;
         // front()
         if (task == 1) {
-            cout << pq.front() << endl;
+            cout << "At front: " << pq.front() << endl;
         }
         // pop()
         else if (task == 2) {
-            cout << pq.pop() << endl;
-        }
-        // upd()
-        else if (task == 3) {
-            int index, val;
-            cin >> index >> val;
-            pq.upd(index, val);
+            cout << "Popped: " << pq.pop() << endl;
         }
         // push()
-        else if (task == 4) {
+        else if (task == 3) {
             int val;
             cin >> val;
             pq.push(val);
