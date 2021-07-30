@@ -6,13 +6,14 @@ class SieveOfEratosthenes {
 
    public:
     SieveOfEratosthenes(int n) {
-        vector<bool> s(n + 1, true);
-        s[1] = false;
-        for (int i = 2; i <= n; i++) {
-            for (int j = 2; i * j <= n; j++)
-                s[i * j] = false;
+        sieve = vector<bool>(n + 1, true);
+        sieve[0] = sieve[1] = false;
+        for (int p = 2; p * p <= n; p++) {
+            if (!sieve[p])
+                continue;
+            for (int i = p * p; i <= n; i += p)
+                sieve[i] = false;
         }
-        sieve = s;
     }
     bool isPrime(int x) {
         return sieve[x];
