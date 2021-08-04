@@ -50,6 +50,7 @@
 - <a href="./Graph/AdjanceyMatrix.cpp">Adjancey Matrix</a>
 - <a href="./Graph/AdjanceyList.cpp">Adjancey List</a>
 - <a href="./Graph/BFS.cpp">Breadth First Search</a>
+- <a href="./Graph/BellmanFord.cpp">Bellman - Ford</a>
 - <a href="./Graph/DFS.cpp">Depth First Search</a>
 - <a href="./Graph/Dijsktra1.cpp">Dijsktra (basic)</a>
 - <a href="./Graph/Dijsktra2.cpp">Dijsktra (More generalized & using priority queue)</a>
