@@ -1,5 +1,5 @@
 <h1 align="center">DSA</h1>
-<p align="center">This repo hosts some code for DSA</p>
+<p align="center">Data structures & algorithms, for reference</p>
  
 <h1 align="center">Contents</h1>
 
