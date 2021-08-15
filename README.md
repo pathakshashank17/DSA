@@ -56,6 +56,7 @@
 - <a href="./Graph/Dijsktra2.cpp">Dijsktra (More generalized & using priority queue)</a>
 - <a href="./Graph/FloydWarshall.cpp">Floyd - Warshall</a>
 - <a href="./Graph/Hierholzer.cpp">Eucledian circuit using Hierholzer's algo</a>
+- <a href="./Graph/Kosaraju.cpp">SCCs using Kosaraju's algo</a>
 - <a href="./Graph/KruskalMSTOptimized.cpp">MST using Kruskal's method using DSU + Path compression + Rank union</a>
 - <a href="./Graph/Toposort.cpp">Topological sort</a>
 
