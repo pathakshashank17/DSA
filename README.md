@@ -64,7 +64,8 @@
 
 <h4>AVL</h4>
 
-- <a href="./Tree/AVL/Implementation.cpp">Implementation</a>
+- <a href="./Tree/AVL/PointUpdateRangeQuery.cpp">Point update - Range query</a>
+- <a href="./Tree/AVL/RangeUpdatePointQuery.cpp">Range update - Point query</a>
 
 <h4>BST</h4>
 
