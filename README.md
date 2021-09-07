@@ -14,6 +14,7 @@
 
 - <a href="./Algos/BinaryExponentiation.cpp">Binary Exponentiation</a>
 - <a href="./Algos/BinarySearch.cpp">Binary Search</a>
+- <a href="./Algos/ConvexHull.cpp">Convex Hull using Monotone chain</a>
 - <a href="./Algos/EucledianGCD.cpp">Eucledian GCD</a>
 - <a href="./Algos/EulersTotientFunction.cpp">Euler's Totient Function</a>
 - <a href="./Algos/ExtendedEucledianAlgorithm.cpp">Extended Eucledian Algorithm</a>
