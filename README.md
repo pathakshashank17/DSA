@@ -63,18 +63,18 @@
 
 <h2 id="tree">Tree</h2>
 
-<h4>AVL</h4>
+<h4>Fenwick / BIT</h4>
 
-- <a href="./Tree/AVL/PointUpdateRangeQuery.cpp">Point update - Range query</a>
-- <a href="./Tree/AVL/RangeUpdatePointQuery.cpp">Range update - Point query</a>
+- <a href="./Tree/Fenwick/PointUpdateRangeQuery.cpp">Point update - Range query</a>
+- <a href="./Tree/Fenwick/RangeUpdatePointQuery.cpp">Range update - Point query</a>
 
 <h4>BST</h4>
 
 - <a href="./Tree/BST/Implementation.cpp">Implementation</a>
 
-<h4>Fenwick / BIT</h4>
+<h4>AVL</h4>
 
-- <a href="./Tree/Fenwick/Implementation.cpp">Implementation</a>
+- <a href="./Tree/AVL/Implementation.cpp">Implementation</a>
 
 <h4>Heap</h4>
 
